@@ -28,7 +28,6 @@ class TestPQRSolver:
                     "--titration-state-method=propka",
                     f"--with-ph={ph}",
                 ]
-                print(" ".join(command))
                 _ = subprocess.run(
                     command,
                     check=True,
@@ -40,7 +39,5 @@ class TestPQRSolver:
                         for line in fp.readlines()
                         if line.split(" ")[0] == "ATOM"
                     ]
-                    print(sum(atom_charges))
                     total_charges.append(sum(atom_charges))
-        print(total_charges)
         assert not np.allclose(total_charges[0], total_charges[1])

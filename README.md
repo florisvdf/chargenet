@@ -7,7 +7,7 @@
     <img src="img/logo.png" alt="Logo" width="200">
   </a>
 
-<h3 align="center">chargenet</h3>
+<h3 align="center">ChargeNet</h3>
 
   <p align="center">
     Predicting protein variant properties using electrostatic representations
@@ -82,19 +82,19 @@ Precompiled binaries of `apbs` can be found at https://github.com/Electrostatics
 ### Installation
 
 1. Clone the repo
-```sh
-git clone https://github.com/florisvdf/chargenet.git
-```
+    ```sh
+    git clone https://github.com/florisvdf/chargenet.git
+    ```
 2. Install 
 
-Using [uv](https://docs.astral.sh/uv/)
-```sh
-uv sync .
-```
-Using pip
-```sh
-pip install .
-```
+    Using [uv](https://docs.astral.sh/uv/)
+    ```sh
+    uv sync .
+    ```
+    Using pip
+    ```sh
+    pip install .
+    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

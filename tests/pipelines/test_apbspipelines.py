@@ -39,7 +39,7 @@ class TestPQRSolver:
             mutagenesis_tool="foldx" if FOLDX_AVAILABLE else "pymol",
             batch_size=8,
             channel_configuration="all",
-            n_cores=4,
+            n_cores=1,
         )
 
     def test_pqr_solver_logs_stderr(
@@ -62,6 +62,7 @@ class TestPQRSolver:
             target="a",
             mutagenesis_tool="foldx" if FOLDX_AVAILABLE else "pymol",
             epochs=2,
+            n_cores=1,
         )
         return chargenet
 
