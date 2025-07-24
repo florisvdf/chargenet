@@ -33,7 +33,7 @@ jobs:
             libglm-dev \
             libnetcdf-dev
 
-      - name: Install MMTF dependency
+      - name: Install MMTF
         run: |
           git clone https://github.com/rcsb/mmtf-cpp.git /tmp/mmtf
           cd /tmp/mmtf
@@ -41,6 +41,12 @@ jobs:
           cmake ..
           make
           sudo make install
+
+      - name: Install apbs
+        run: |
+          mkdir tmp
+          unzip -o software/APBS-3.4.1.Linux.zip -d tmp
+          mv tmp/APBS-3.4.1.Linux/bin/apbs /usr/local/bin/apbs
 
       - name: Install uv
         uses: astral-sh/setup-uv@v3
