@@ -1,5 +1,6 @@
 import pytest
 import shutil
+from loguru import logger
 
 from biopandas.pdb import PandasPdb
 
@@ -8,6 +9,8 @@ from chargenet.constants import THREE_TO_SINGLE_LETTER_CODES
 
 
 FOLDX_AVAILABLE = True if shutil.which("foldx") is not None else False
+if not FOLDX_AVAILABLE:
+    logger.info("No foldx binary found, falling back to pymol mutagenesis")
 
 
 class TestPQRSolver:
@@ -33,6 +36,7 @@ class TestPQRSolver:
         return APBSElectrostaticMapper(
             pdb_file_path=str(mini_pdb_file_path),
             reference_sequence=reference_sequence,
+            mutagenesis_tool="foldx" if FOLDX_AVAILABLE else "pymol",
             batch_size=8,
             channel_configuration="all",
             n_cores=4,

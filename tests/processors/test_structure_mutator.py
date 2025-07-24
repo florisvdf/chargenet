@@ -1,6 +1,7 @@
 import re
 from loguru import logger
 import pytest
+import shutil
 
 from biopandas.pdb import PandasPdb
 
@@ -8,10 +9,19 @@ from chargenet.processors import StructureMutator
 from chargenet.constants import THREE_TO_SINGLE_LETTER_CODES
 
 
+FOLDX_AVAILABLE = True if shutil.which("foldx") is not None else False
+if not FOLDX_AVAILABLE:
+    logger.info("No foldx binary found, falling back to pymol mutagenesis")
+
+
 def extract_mutations(strings):
     mutation_lists = []
     for s in strings:
-        match = re.search(r"Using foldx to make mutations: (.*?);", s)
+        if FOLDX_AVAILABLE:
+            search_pattern = r"Using foldx to make mutations: (.*?);"
+        else:
+            search_pattern = r"Using pymol to make mutations: (.*?);"
+        match = re.search(search_pattern, s)
         if match:
             mutations = [mutation.strip() for mutation in match.group(1).split(",")]
             mutation_lists.append(mutations)
@@ -24,7 +34,7 @@ class TestStructureMutator:
         return StructureMutator(
             pdb_file_path=mini_pdb_file_path,
             reference_sequence=reference_sequence,
-            mutagenesis_tool="foldx",
+            mutagenesis_tool="foldx" if FOLDX_AVAILABLE else "pymol",
         )
 
     @pytest.fixture(scope="session")
