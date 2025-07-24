@@ -42,6 +42,9 @@ jobs:
           make
           sudo make install
 
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
       - name: Install PyMOL from zip
         run: |
           pip install numpy
@@ -49,9 +52,6 @@ jobs:
           unzip software/pymol-open-source-master.zip -d /tmp
           cd /tmp/pymol-open-source-master
           python setup.py build install --user --no-launcher
-
-      - name: Install uv and tox
-        uses: astral-sh/setup-uv@v3
 
       - name: Install tox
         run: uv tool install tox --with tox-uv
