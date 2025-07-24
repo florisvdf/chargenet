@@ -45,13 +45,13 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v3
 
-      - name: Install PyMOL from zip
-        run: |
-          pip install numpy
-          export CXXFLAGS="${CXXFLAGS} -Wno-stringop-overflow -Wno-format-truncation"
-          unzip software/pymol-open-source-master.zip -d /tmp
-          cd /tmp/pymol-open-source-master
-          python setup.py build install --user --no-launcher
+#      - name: Install PyMOL from zip
+#        run: |
+#          pip install numpy
+#          export CXXFLAGS="${CXXFLAGS} -Wno-stringop-overflow -Wno-format-truncation"
+#          unzip software/pymol-open-source-master.zip -d /tmp
+#          cd /tmp/pymol-open-source-master
+#          python setup.py build install --user --no-launcher
 
       - name: Install tox
         run: uv tool install tox --with tox-uv
