@@ -1,0 +1,32 @@
+[project]
+name = "chargenet"
+version = "0.1.0"
+authors = [
+    { name = "Floris van der Flier", email = "floris.vanderflier@wur.nl" }
+]
+description = "Predicting protein variant properties using electrostatic representations"
+readme = "README.md"
+requires-python = ">=3.10, <3.12"
+dependencies = [
+    "biopandas>=0.5.1",
+    "biopython>=1.85",
+    "h5py>=3.14.0",
+    "jupyter>=1.1.1",
+    "loguru>=0.7.3",
+    "numpy<2",
+    "pandas>=2.3.1",
+    "pdb2pqr>=3.6.2",
+    "plotly>=6.2.0",
+    "plotnine>=0.15.0",
+    "polyleven>=0.9.0",
+    "protobuf>=6.31.1",
+    "pytest>=8.4.1",
+    "scikit-learn>=1.7.1",
+    "torch>=2.7.1",
+    "tqdm>=4.67.1",
+    "utilin>=0.1.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

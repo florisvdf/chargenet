@@ -1,0 +1,468 @@
+2024-06-24 14:04:39,779 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.1: biomolecular structure conversion software.
+2024-06-24 14:04:39,780 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-06-24 14:04:39,780 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-06-24 14:04:39,780 INFO:main.py:759:main_driver:Checking and transforming input arguments.
+2024-06-24 14:04:39,780 INFO:main.py:763:main_driver:Loading topology files.
+2024-06-24 14:04:39,811 INFO:main.py:765:main_driver:Loading molecule: /Users/floris/work/phd/projects/apbsconv/tests/data/8GL4.pdb
+2024-06-24 14:04:39,814 INFO:main.py:770:main_driver:Setting up molecule.
+2024-06-24 14:04:39,814 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for AIB.  Parsing as new residue.
+2024-06-24 14:04:39,814 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for AIB.  Parsing as new residue.
+2024-06-24 14:04:39,815 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for NIO.  Parsing as new residue.
+2024-06-24 14:04:39,815 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for I77.  Parsing as new residue.
+2024-06-24 14:04:39,815 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for CCN.  Parsing as new residue.
+2024-06-24 14:04:39,815 INFO:main.py:408:setup_molecule:Created biomolecule object with 17 residues and 183 atoms.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CYS A 5.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in CYS A 5.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in CYS A 5.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in CYS A 5.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in CYS A 5.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: SG in CYS A 5.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H in CYS A 5.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HA in CYS A 5.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB2 in CYS A 5.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB3 in CYS A 5.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG in CYS A 5.
+2024-06-24 14:04:39,815 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CYS A 5. At least one of the instances is being ignored.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CD in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OE1 in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: NE2 in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HA in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB2 in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB3 in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG2 in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG3 in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HE21 in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HE22 in GLN A 8.
+2024-06-24 14:04:39,815 WARNING:main.py:424:setup_molecule:Multiple occupancies found in GLN A 8. At least one of the instances is being ignored.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CCN A 103.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C1 in CCN A 103.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C2 in CCN A 103.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H21 in CCN A 103.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H22 in CCN A 103.
+2024-06-24 14:04:39,815 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H23 in CCN A 103.
+2024-06-24 14:04:39,815 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CCN A 103. At least one of the instances is being ignored.
+2024-06-24 14:04:39,816 INFO:main.py:774:main_driver:Setting termini states for biomolecule chains.
+2024-06-24 14:04:39,816 INFO:main.py:604:non_trivial:Loading forcefield.
+2024-06-24 14:04:39,827 INFO:main.py:608:non_trivial:Loading hydrogen topology definitions.
+2024-06-24 14:04:39,828 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:04:39,828 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:04:39,828 INFO:main.py:618:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2024-06-24 14:04:39,828 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:04:39,828 INFO:biomolecule.py:1077:repair_heavy:Added atom OXT to residue LEU A 10 at coordinates 1.971, 13.867, 7.768
+2024-06-24 14:04:39,828 INFO:main.py:623:non_trivial:Updating disulfide bridges.
+2024-06-24 14:04:39,828 INFO:main.py:626:non_trivial:Debumping biomolecule.
+2024-06-24 14:04:39,829 INFO:main.py:649:non_trivial:Adding hydrogens to biomolecule.
+2024-06-24 14:04:39,829 INFO:main.py:652:non_trivial:Debumping biomolecule (again).
+2024-06-24 14:04:39,830 INFO:main.py:654:non_trivial:Optimizing hydrogen bonds
+2024-06-24 14:04:39,832 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: O in HOH A 203 skipped when optimizing O in HOH A 201
+2024-06-24 14:04:39,833 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:04:39,833 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:04:39,833 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:04:39,833 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:04:39,833 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:04:39,833 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:04:39,833 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:04:39,834 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:04:39,834 WARNING:io.py:40:filter:Suppressing further "Skipped atom during water optimization" messages
+2024-06-24 14:04:39,853 INFO:main.py:666:non_trivial:Applying force field to biomolecule states.
+2024-06-24 14:04:39,853 INFO:main.py:713:non_trivial:Regenerating headers.
+2024-06-24 14:04:39,854 INFO:main.py:738:non_trivial:Regenerating PDB lines.
+2024-06-24 14:04:39,854 WARNING:main.py:311:print_pqr:Ignoring 3087 header lines in output.
+2024-06-24 14:04:39,854 WARNING:main.py:315:print_pqr:Ignoring 73 missing lines in output.
+2024-06-24 14:06:38,205 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.1: biomolecular structure conversion software.
+2024-06-24 14:06:38,206 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-06-24 14:06:38,206 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-06-24 14:06:38,206 INFO:main.py:759:main_driver:Checking and transforming input arguments.
+2024-06-24 14:06:38,206 INFO:main.py:763:main_driver:Loading topology files.
+2024-06-24 14:06:38,237 INFO:main.py:765:main_driver:Loading molecule: /Users/floris/work/phd/projects/apbsconv/tests/data/8GL4.pdb
+2024-06-24 14:06:38,239 INFO:main.py:770:main_driver:Setting up molecule.
+2024-06-24 14:06:38,239 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for AIB.  Parsing as new residue.
+2024-06-24 14:06:38,240 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for AIB.  Parsing as new residue.
+2024-06-24 14:06:38,240 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for NIO.  Parsing as new residue.
+2024-06-24 14:06:38,240 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for I77.  Parsing as new residue.
+2024-06-24 14:06:38,240 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for CCN.  Parsing as new residue.
+2024-06-24 14:06:38,240 INFO:main.py:408:setup_molecule:Created biomolecule object with 17 residues and 183 atoms.
+2024-06-24 14:06:38,240 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CYS A 5.
+2024-06-24 14:06:38,240 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in CYS A 5.
+2024-06-24 14:06:38,240 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in CYS A 5.
+2024-06-24 14:06:38,240 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in CYS A 5.
+2024-06-24 14:06:38,240 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in CYS A 5.
+2024-06-24 14:06:38,240 WARNING:main.py:418:setup_molecule:Multiple occupancies found: SG in CYS A 5.
+2024-06-24 14:06:38,240 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H in CYS A 5.
+2024-06-24 14:06:38,240 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HA in CYS A 5.
+2024-06-24 14:06:38,240 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB2 in CYS A 5.
+2024-06-24 14:06:38,240 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB3 in CYS A 5.
+2024-06-24 14:06:38,240 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG in CYS A 5.
+2024-06-24 14:06:38,240 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CYS A 5. At least one of the instances is being ignored.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CD in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OE1 in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: NE2 in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HA in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB2 in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB3 in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG2 in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG3 in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HE21 in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HE22 in GLN A 8.
+2024-06-24 14:06:38,241 WARNING:main.py:424:setup_molecule:Multiple occupancies found in GLN A 8. At least one of the instances is being ignored.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CCN A 103.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C1 in CCN A 103.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C2 in CCN A 103.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H21 in CCN A 103.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H22 in CCN A 103.
+2024-06-24 14:06:38,241 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H23 in CCN A 103.
+2024-06-24 14:06:38,241 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CCN A 103. At least one of the instances is being ignored.
+2024-06-24 14:06:38,241 INFO:main.py:774:main_driver:Setting termini states for biomolecule chains.
+2024-06-24 14:06:38,241 INFO:main.py:604:non_trivial:Loading forcefield.
+2024-06-24 14:06:38,251 INFO:main.py:608:non_trivial:Loading hydrogen topology definitions.
+2024-06-24 14:06:38,252 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:06:38,252 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:06:38,252 INFO:main.py:618:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2024-06-24 14:06:38,252 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:06:38,252 INFO:biomolecule.py:1077:repair_heavy:Added atom OXT to residue LEU A 10 at coordinates 1.971, 13.867, 7.768
+2024-06-24 14:06:38,252 INFO:main.py:623:non_trivial:Updating disulfide bridges.
+2024-06-24 14:06:38,252 INFO:main.py:626:non_trivial:Debumping biomolecule.
+2024-06-24 14:06:38,253 INFO:main.py:649:non_trivial:Adding hydrogens to biomolecule.
+2024-06-24 14:06:38,254 INFO:main.py:652:non_trivial:Debumping biomolecule (again).
+2024-06-24 14:06:38,255 INFO:main.py:654:non_trivial:Optimizing hydrogen bonds
+2024-06-24 14:06:38,257 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: O in HOH A 203 skipped when optimizing O in HOH A 201
+2024-06-24 14:06:38,258 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:06:38,258 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:06:38,258 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:06:38,258 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:06:38,258 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:06:38,258 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:06:38,258 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:06:38,258 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:06:38,258 WARNING:io.py:40:filter:Suppressing further "Skipped atom during water optimization" messages
+2024-06-24 14:06:38,278 INFO:main.py:666:non_trivial:Applying force field to biomolecule states.
+2024-06-24 14:06:38,278 INFO:main.py:713:non_trivial:Regenerating headers.
+2024-06-24 14:06:38,278 INFO:main.py:738:non_trivial:Regenerating PDB lines.
+2024-06-24 14:06:38,279 WARNING:main.py:311:print_pqr:Ignoring 3087 header lines in output.
+2024-06-24 14:06:38,279 WARNING:main.py:315:print_pqr:Ignoring 73 missing lines in output.
+2024-06-24 14:07:31,628 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.1: biomolecular structure conversion software.
+2024-06-24 14:07:31,628 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-06-24 14:07:31,628 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-06-24 14:07:31,628 INFO:main.py:759:main_driver:Checking and transforming input arguments.
+2024-06-24 14:07:31,629 INFO:main.py:763:main_driver:Loading topology files.
+2024-06-24 14:07:31,659 INFO:main.py:765:main_driver:Loading molecule: /Users/floris/work/phd/projects/apbsconv/tests/data/8GL4.pdb
+2024-06-24 14:07:31,661 INFO:main.py:770:main_driver:Setting up molecule.
+2024-06-24 14:07:31,661 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for AIB.  Parsing as new residue.
+2024-06-24 14:07:31,661 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for AIB.  Parsing as new residue.
+2024-06-24 14:07:31,661 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for NIO.  Parsing as new residue.
+2024-06-24 14:07:31,662 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for I77.  Parsing as new residue.
+2024-06-24 14:07:31,662 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for CCN.  Parsing as new residue.
+2024-06-24 14:07:31,662 INFO:main.py:408:setup_molecule:Created biomolecule object with 17 residues and 183 atoms.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CYS A 5.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in CYS A 5.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in CYS A 5.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in CYS A 5.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in CYS A 5.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: SG in CYS A 5.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H in CYS A 5.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HA in CYS A 5.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB2 in CYS A 5.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB3 in CYS A 5.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG in CYS A 5.
+2024-06-24 14:07:31,662 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CYS A 5. At least one of the instances is being ignored.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CD in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OE1 in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: NE2 in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HA in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB2 in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB3 in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG2 in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG3 in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HE21 in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HE22 in GLN A 8.
+2024-06-24 14:07:31,662 WARNING:main.py:424:setup_molecule:Multiple occupancies found in GLN A 8. At least one of the instances is being ignored.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CCN A 103.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C1 in CCN A 103.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C2 in CCN A 103.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H21 in CCN A 103.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H22 in CCN A 103.
+2024-06-24 14:07:31,662 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H23 in CCN A 103.
+2024-06-24 14:07:31,662 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CCN A 103. At least one of the instances is being ignored.
+2024-06-24 14:07:31,662 INFO:main.py:774:main_driver:Setting termini states for biomolecule chains.
+2024-06-24 14:07:31,663 INFO:main.py:604:non_trivial:Loading forcefield.
+2024-06-24 14:07:31,673 INFO:main.py:608:non_trivial:Loading hydrogen topology definitions.
+2024-06-24 14:07:31,673 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:07:31,673 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:07:31,674 INFO:main.py:618:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2024-06-24 14:07:31,674 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:07:31,674 INFO:biomolecule.py:1077:repair_heavy:Added atom OXT to residue LEU A 10 at coordinates 1.971, 13.867, 7.768
+2024-06-24 14:07:31,674 INFO:main.py:623:non_trivial:Updating disulfide bridges.
+2024-06-24 14:07:31,674 INFO:main.py:626:non_trivial:Debumping biomolecule.
+2024-06-24 14:07:31,675 INFO:main.py:649:non_trivial:Adding hydrogens to biomolecule.
+2024-06-24 14:07:31,675 INFO:main.py:652:non_trivial:Debumping biomolecule (again).
+2024-06-24 14:07:31,676 INFO:main.py:654:non_trivial:Optimizing hydrogen bonds
+2024-06-24 14:07:31,678 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: O in HOH A 203 skipped when optimizing O in HOH A 201
+2024-06-24 14:07:31,679 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:07:31,679 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:07:31,679 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:07:31,679 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:07:31,679 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:07:31,679 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:07:31,679 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:07:31,679 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:07:31,679 WARNING:io.py:40:filter:Suppressing further "Skipped atom during water optimization" messages
+2024-06-24 14:07:31,699 INFO:main.py:666:non_trivial:Applying force field to biomolecule states.
+2024-06-24 14:07:31,699 INFO:main.py:713:non_trivial:Regenerating headers.
+2024-06-24 14:07:31,699 INFO:main.py:738:non_trivial:Regenerating PDB lines.
+2024-06-24 14:07:31,700 WARNING:main.py:311:print_pqr:Ignoring 3087 header lines in output.
+2024-06-24 14:07:31,700 WARNING:main.py:315:print_pqr:Ignoring 73 missing lines in output.
+2024-06-24 14:33:15,794 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.1: biomolecular structure conversion software.
+2024-06-24 14:33:15,794 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-06-24 14:33:15,794 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-06-24 14:33:15,794 INFO:main.py:759:main_driver:Checking and transforming input arguments.
+2024-06-24 14:33:15,795 INFO:main.py:763:main_driver:Loading topology files.
+2024-06-24 14:33:15,825 INFO:main.py:765:main_driver:Loading molecule: /Users/floris/work/phd/projects/apbsconv/tests/data/8GL4.pdb
+2024-06-24 14:33:15,827 INFO:main.py:770:main_driver:Setting up molecule.
+2024-06-24 14:33:15,827 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for AIB.  Parsing as new residue.
+2024-06-24 14:33:15,828 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for AIB.  Parsing as new residue.
+2024-06-24 14:33:15,828 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for NIO.  Parsing as new residue.
+2024-06-24 14:33:15,828 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for I77.  Parsing as new residue.
+2024-06-24 14:33:15,828 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for CCN.  Parsing as new residue.
+2024-06-24 14:33:15,828 INFO:main.py:408:setup_molecule:Created biomolecule object with 17 residues and 183 atoms.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CYS A 5.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in CYS A 5.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in CYS A 5.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in CYS A 5.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in CYS A 5.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: SG in CYS A 5.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H in CYS A 5.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HA in CYS A 5.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB2 in CYS A 5.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB3 in CYS A 5.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG in CYS A 5.
+2024-06-24 14:33:15,828 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CYS A 5. At least one of the instances is being ignored.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in GLN A 8.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in GLN A 8.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in GLN A 8.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in GLN A 8.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in GLN A 8.
+2024-06-24 14:33:15,828 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG in GLN A 8.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CD in GLN A 8.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OE1 in GLN A 8.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: NE2 in GLN A 8.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H in GLN A 8.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HA in GLN A 8.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB2 in GLN A 8.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB3 in GLN A 8.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG2 in GLN A 8.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG3 in GLN A 8.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HE21 in GLN A 8.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HE22 in GLN A 8.
+2024-06-24 14:33:15,829 WARNING:main.py:424:setup_molecule:Multiple occupancies found in GLN A 8. At least one of the instances is being ignored.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CCN A 103.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C1 in CCN A 103.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C2 in CCN A 103.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H21 in CCN A 103.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H22 in CCN A 103.
+2024-06-24 14:33:15,829 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H23 in CCN A 103.
+2024-06-24 14:33:15,829 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CCN A 103. At least one of the instances is being ignored.
+2024-06-24 14:33:15,829 INFO:main.py:774:main_driver:Setting termini states for biomolecule chains.
+2024-06-24 14:33:15,829 INFO:main.py:604:non_trivial:Loading forcefield.
+2024-06-24 14:33:15,839 INFO:main.py:608:non_trivial:Loading hydrogen topology definitions.
+2024-06-24 14:33:15,840 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:33:15,840 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:33:15,840 INFO:main.py:618:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2024-06-24 14:33:15,840 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:33:15,840 INFO:biomolecule.py:1077:repair_heavy:Added atom OXT to residue LEU A 10 at coordinates 1.971, 13.867, 7.768
+2024-06-24 14:33:15,840 INFO:main.py:623:non_trivial:Updating disulfide bridges.
+2024-06-24 14:33:15,840 INFO:main.py:626:non_trivial:Debumping biomolecule.
+2024-06-24 14:33:15,841 INFO:main.py:649:non_trivial:Adding hydrogens to biomolecule.
+2024-06-24 14:33:15,841 INFO:main.py:652:non_trivial:Debumping biomolecule (again).
+2024-06-24 14:33:15,842 INFO:main.py:654:non_trivial:Optimizing hydrogen bonds
+2024-06-24 14:33:15,844 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: O in HOH A 203 skipped when optimizing O in HOH A 201
+2024-06-24 14:33:15,845 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:33:15,845 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:33:15,845 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:33:15,845 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:33:15,845 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:33:15,845 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:33:15,845 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:33:15,845 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:33:15,845 WARNING:io.py:40:filter:Suppressing further "Skipped atom during water optimization" messages
+2024-06-24 14:33:15,865 INFO:main.py:666:non_trivial:Applying force field to biomolecule states.
+2024-06-24 14:33:15,865 INFO:main.py:713:non_trivial:Regenerating headers.
+2024-06-24 14:33:15,865 INFO:main.py:738:non_trivial:Regenerating PDB lines.
+2024-06-24 14:33:15,866 WARNING:main.py:311:print_pqr:Ignoring 3087 header lines in output.
+2024-06-24 14:33:15,866 WARNING:main.py:315:print_pqr:Ignoring 73 missing lines in output.
+2024-06-24 14:35:03,318 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.1: biomolecular structure conversion software.
+2024-06-24 14:35:03,319 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-06-24 14:35:03,319 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-06-24 14:35:03,319 INFO:main.py:759:main_driver:Checking and transforming input arguments.
+2024-06-24 14:35:03,319 INFO:main.py:763:main_driver:Loading topology files.
+2024-06-24 14:35:03,350 INFO:main.py:765:main_driver:Loading molecule: /Users/floris/work/phd/projects/apbsconv/tests/data/8GL4.pdb
+2024-06-24 14:35:03,352 INFO:main.py:770:main_driver:Setting up molecule.
+2024-06-24 14:35:03,352 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for AIB.  Parsing as new residue.
+2024-06-24 14:35:03,352 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for AIB.  Parsing as new residue.
+2024-06-24 14:35:03,352 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for NIO.  Parsing as new residue.
+2024-06-24 14:35:03,352 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for I77.  Parsing as new residue.
+2024-06-24 14:35:03,352 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for CCN.  Parsing as new residue.
+2024-06-24 14:35:03,353 INFO:main.py:408:setup_molecule:Created biomolecule object with 17 residues and 183 atoms.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CYS A 5.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in CYS A 5.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in CYS A 5.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in CYS A 5.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in CYS A 5.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: SG in CYS A 5.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H in CYS A 5.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HA in CYS A 5.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB2 in CYS A 5.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB3 in CYS A 5.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG in CYS A 5.
+2024-06-24 14:35:03,353 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CYS A 5. At least one of the instances is being ignored.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CD in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OE1 in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: NE2 in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HA in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB2 in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB3 in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG2 in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG3 in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HE21 in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HE22 in GLN A 8.
+2024-06-24 14:35:03,353 WARNING:main.py:424:setup_molecule:Multiple occupancies found in GLN A 8. At least one of the instances is being ignored.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CCN A 103.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C1 in CCN A 103.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C2 in CCN A 103.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H21 in CCN A 103.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H22 in CCN A 103.
+2024-06-24 14:35:03,353 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H23 in CCN A 103.
+2024-06-24 14:35:03,353 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CCN A 103. At least one of the instances is being ignored.
+2024-06-24 14:35:03,353 INFO:main.py:774:main_driver:Setting termini states for biomolecule chains.
+2024-06-24 14:35:03,354 INFO:main.py:604:non_trivial:Loading forcefield.
+2024-06-24 14:35:03,363 INFO:main.py:608:non_trivial:Loading hydrogen topology definitions.
+2024-06-24 14:35:03,364 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:35:03,364 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:35:03,364 INFO:main.py:618:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2024-06-24 14:35:03,364 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 14:35:03,364 INFO:biomolecule.py:1077:repair_heavy:Added atom OXT to residue LEU A 10 at coordinates 1.971, 13.867, 7.768
+2024-06-24 14:35:03,364 INFO:main.py:623:non_trivial:Updating disulfide bridges.
+2024-06-24 14:35:03,364 INFO:main.py:626:non_trivial:Debumping biomolecule.
+2024-06-24 14:35:03,365 INFO:main.py:649:non_trivial:Adding hydrogens to biomolecule.
+2024-06-24 14:35:03,366 INFO:main.py:652:non_trivial:Debumping biomolecule (again).
+2024-06-24 14:35:03,367 INFO:main.py:654:non_trivial:Optimizing hydrogen bonds
+2024-06-24 14:35:03,368 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: O in HOH A 203 skipped when optimizing O in HOH A 201
+2024-06-24 14:35:03,369 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:35:03,369 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:35:03,369 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:35:03,369 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:35:03,369 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:35:03,370 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:35:03,370 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:35:03,370 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 14:35:03,370 WARNING:io.py:40:filter:Suppressing further "Skipped atom during water optimization" messages
+2024-06-24 14:35:03,389 INFO:main.py:666:non_trivial:Applying force field to biomolecule states.
+2024-06-24 14:35:03,389 INFO:main.py:713:non_trivial:Regenerating headers.
+2024-06-24 14:35:03,389 INFO:main.py:738:non_trivial:Regenerating PDB lines.
+2024-06-24 14:35:03,390 WARNING:main.py:311:print_pqr:Ignoring 3087 header lines in output.
+2024-06-24 14:35:03,390 WARNING:main.py:315:print_pqr:Ignoring 73 missing lines in output.
+2024-06-24 15:03:56,821 INFO:main.py:240:print_splash_screen:PDB2PQR v3.6.1: biomolecular structure conversion software.
+2024-06-24 15:03:56,822 INFO:main.py:242:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-06-24 15:03:56,822 INFO:main.py:242:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-06-24 15:03:56,822 INFO:main.py:759:main_driver:Checking and transforming input arguments.
+2024-06-24 15:03:56,822 INFO:main.py:763:main_driver:Loading topology files.
+2024-06-24 15:03:56,854 INFO:main.py:765:main_driver:Loading molecule: /Users/floris/work/phd/projects/apbsconv/tests/data/8GL4.pdb
+2024-06-24 15:03:56,856 INFO:main.py:770:main_driver:Setting up molecule.
+2024-06-24 15:03:56,856 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for AIB.  Parsing as new residue.
+2024-06-24 15:03:56,857 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for AIB.  Parsing as new residue.
+2024-06-24 15:03:56,857 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for NIO.  Parsing as new residue.
+2024-06-24 15:03:56,857 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for I77.  Parsing as new residue.
+2024-06-24 15:03:56,857 WARNING:biomolecule.py:992:create_residue:Unable to find amino or nucleic acid definition for CCN.  Parsing as new residue.
+2024-06-24 15:03:56,857 INFO:main.py:408:setup_molecule:Created biomolecule object with 17 residues and 183 atoms.
+2024-06-24 15:03:56,857 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CYS A 5.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in CYS A 5.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in CYS A 5.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in CYS A 5.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in CYS A 5.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: SG in CYS A 5.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H in CYS A 5.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HA in CYS A 5.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB2 in CYS A 5.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB3 in CYS A 5.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG in CYS A 5.
+2024-06-24 15:03:56,858 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CYS A 5. At least one of the instances is being ignored.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CA in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: O in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CB in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CG in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: CD in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: OE1 in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: NE2 in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HA in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB2 in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HB3 in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG2 in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HG3 in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HE21 in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: HE22 in GLN A 8.
+2024-06-24 15:03:56,858 WARNING:main.py:424:setup_molecule:Multiple occupancies found in GLN A 8. At least one of the instances is being ignored.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: N in CCN A 103.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C1 in CCN A 103.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: C2 in CCN A 103.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H21 in CCN A 103.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H22 in CCN A 103.
+2024-06-24 15:03:56,858 WARNING:main.py:418:setup_molecule:Multiple occupancies found: H23 in CCN A 103.
+2024-06-24 15:03:56,858 WARNING:main.py:424:setup_molecule:Multiple occupancies found in CCN A 103. At least one of the instances is being ignored.
+2024-06-24 15:03:56,858 INFO:main.py:774:main_driver:Setting termini states for biomolecule chains.
+2024-06-24 15:03:56,859 INFO:main.py:604:non_trivial:Loading forcefield.
+2024-06-24 15:03:56,869 INFO:main.py:608:non_trivial:Loading hydrogen topology definitions.
+2024-06-24 15:03:56,870 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 15:03:56,870 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 15:03:56,870 INFO:main.py:618:non_trivial:Attempting to repair 1 missing atoms in biomolecule.
+2024-06-24 15:03:56,870 WARNING:biomolecule.py:157:num_missing_heavy:Missing atom OXT in residue LEU A 10
+2024-06-24 15:03:56,870 INFO:biomolecule.py:1077:repair_heavy:Added atom OXT to residue LEU A 10 at coordinates 1.971, 13.867, 7.768
+2024-06-24 15:03:56,870 INFO:main.py:623:non_trivial:Updating disulfide bridges.
+2024-06-24 15:03:56,870 INFO:main.py:626:non_trivial:Debumping biomolecule.
+2024-06-24 15:03:56,871 INFO:main.py:649:non_trivial:Adding hydrogens to biomolecule.
+2024-06-24 15:03:56,871 INFO:main.py:652:non_trivial:Debumping biomolecule (again).
+2024-06-24 15:03:56,872 INFO:main.py:654:non_trivial:Optimizing hydrogen bonds
+2024-06-24 15:03:56,874 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: O in HOH A 203 skipped when optimizing O in HOH A 201
+2024-06-24 15:03:56,875 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 15:03:56,875 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 15:03:56,875 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 15:03:56,875 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 15:03:56,875 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 15:03:56,875 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 15:03:56,876 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 15:03:56,876 WARNING:debump.py:354:get_closest_atom:Skipped atom during water optimization: H1 in HOH A 201 skipped when optimizing H2 in HOH A 205
+2024-06-24 15:03:56,876 WARNING:io.py:40:filter:Suppressing further "Skipped atom during water optimization" messages
+2024-06-24 15:03:56,895 INFO:main.py:666:non_trivial:Applying force field to biomolecule states.
+2024-06-24 15:03:56,895 INFO:main.py:713:non_trivial:Regenerating headers.
+2024-06-24 15:03:56,895 INFO:main.py:738:non_trivial:Regenerating PDB lines.
+2024-06-24 15:03:56,896 WARNING:main.py:311:print_pqr:Ignoring 3087 header lines in output.
+2024-06-24 15:03:56,896 WARNING:main.py:315:print_pqr:Ignoring 73 missing lines in output.

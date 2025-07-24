@@ -1,0 +1,1 @@
+s3://sagemaker-us-east-1-938398057556/generate-synthetic-data-16-14-11-56/output/model.tar.gz
