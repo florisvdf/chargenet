@@ -1,13 +1,13 @@
-![CI](https://github.com/florisvdf/chargenet/actions/workflows/setup-and-test.yml/badge.svg)
+![setup-and-test](https://github.com/florisvdf/chargenet/actions/workflows/setup-and-test.yml/badge.svg)
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/florisvdf/apbsconv">
+  <a href="https://github.com/florisvdf/chargenet">
     <img src="img/logo.png" alt="Logo" width="200">
   </a>
 
-<h3 align="center">apbsconv</h3>
+<h3 align="center">chargenet</h3>
 
   <p align="center">
     Predicting protein variant properties using electrostatic representations
@@ -22,9 +22,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -46,7 +43,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/florisvdf/apbsconv">
+  <a href="https://github.com/florisvdf/chargenet">
     <img src="img/intro_figure.png" alt="Intro">
   </a>
 </div>
@@ -85,19 +82,19 @@ Precompiled binaries of `apbs` can be found at https://github.com/Electrostatics
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/florisvdf/apbsconv.git
-   ```
+```sh
+git clone https://github.com/florisvdf/chargenet.git
+```
 2. Install 
 
 Using [uv](https://docs.astral.sh/uv/)
-   ```sh
-   uv sync .
-   ```
+```sh
+uv sync .
+```
 Using pip
-   ```sh
-   pip install .
-   ```
+```sh
+pip install .
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,7 +186,7 @@ Floris van der Flier - [@florisvdf](https://bsky.app/profile/florisvdf.bsky.soci
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[license-shield]: https://img.shields.io/github/license/florisvdf/apbsconv.svg?style=for-the-badge
-[license-url]: https://github.com/florisvdf/apbsconv/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/florisvdf/chargenet.svg?style=for-the-badge
+[license-url]: https://github.com/florisvdf/chargenet/blob/master/LICENSE.txt
 [Python.org]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
