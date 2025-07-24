@@ -48,7 +48,7 @@ jobs:
           export CXXFLAGS="${CXXFLAGS} -Wno-stringop-overflow -Wno-format-truncation"
           unzip software/pymol-open-source-master.zip -d /tmp
           cd /tmp/pymol-open-source-master
-          python setup.py build install --no-launcher
+          python setup.py build install --user --no-launcher
           
       - name: Install uv and tox
         uses: astral-sh/setup-uv@v3
