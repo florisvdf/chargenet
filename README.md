@@ -89,7 +89,7 @@ Precompiled binaries of `apbs` can be found at https://github.com/Electrostatics
 
     Using [uv](https://docs.astral.sh/uv/)
     ```sh
-    uv sync .
+    uv sync
     ```
     Using pip
     ```sh
@@ -123,6 +123,8 @@ predictions = pipeline.predict(df)
 > [!CAUTION]
 > ChargeNet stores electrostatic representations in an `ElectrostaticDataset` object in order to not recompute these representations during inference. This means that one must pass a dataframe to `predict` that is identical to the one passed to `run`.
 
+It is recommended to either precompute electrostatics for your dataset by setting `write_electrostatics_path`, that can then later be loaded using the `electrostatics_path` parameter, and/or to run ChargeNet with as many cores as possible, 
+by setting the `n_cores` parameter. This is because the computation of electrostatics is computationally expensive. Run times of computing electrostatics for a dataset with 3000 variants of 400 residues takes around an hour when using 60 cores of an AWS sagemaker ml.g5 instance.
 
 ### ChargeNet Parameters
 
@@ -140,7 +142,7 @@ predictions = pipeline.predict(df)
 | n_blocks                  | int   | 1       | Number of 3D Conv residual blocks.                                                                                                                                                                         |
 | kernel_edge_length        | int   | 3       | Length of all edges of the 3D Conv layer kernel.                                                                                                                                                           |
 | pooling_edge_length       | int   | 3       | Length of all edges of the 3D max pooling layer.                                                                                                                                                           |
-| dropout_rate              | float | 0.31    | Dropout value of the dropout layer prior to the final dense layer of the 3D CNN.                                                                                                                           |
+| dropout_rate              | float | 0.30    | Dropout value of the dropout layer prior to the final dense layer of the 3D CNN.                                                                                                                           |
 | batch_size                | int   | 20      | Number of samples passed to the 3D CNN in a single forward pass.                                                                                                                                           |
 | epochs                    | int   | 300     | Number of training iterations.                                                                                                                                                                             |
 | learning_rate             | float | 1e-4    | Learning rate passed to the optimizer.                                                                                                                                                                     |
