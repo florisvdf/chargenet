@@ -33,6 +33,15 @@ jobs:
             libglm-dev \
             libnetcdf-dev
 
+      - name: Install MMTF dependency
+        run: |
+          git clone https://github.com/rcsb/mmtf-cpp.git /tmp/mmtf
+          cd /tmp/mmtf
+          mkdir build && cd build
+          cmake ..
+          make
+          sudo make install
+
       - name: Install PyMOL from zip
         run: |
           pip install numpy
