@@ -124,7 +124,7 @@ predictions = pipeline.predict(df)
 > ChargeNet stores electrostatic representations in an `ElectrostaticDataset` object in order to not recompute these representations during inference. This means that one must pass a dataframe to `predict` that is identical to the one passed to `run`.
 
 It is recommended to either precompute electrostatics for your dataset by setting `write_electrostatics_path`, that can then later be loaded using the `electrostatics_path` parameter, and/or to run ChargeNet with as many cores as possible, 
-by setting the `n_cores` parameter. This is because the computation of electrostatics is computationally expensive. Run times of computing electrostatics for a dataset with 3000 variants of 400 residues takes around an hour when using 60 cores of an AWS sagemaker ml.g5 instance.
+by setting the `n_cores` parameter. This is because the computation of electrostatics is computationally expensive. Computing electrostatics for a dataset with 3000 variants of 400 residues takes around an hour when using 60 cores of an AWS sagemaker ml.g5 instance.
 
 ### ChargeNet Parameters
 
