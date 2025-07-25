@@ -112,9 +112,9 @@ import pandas as pd
 from chargenet.pipelines import ChargeNet
 
 # ChargeNet assumes a column named "split" is present with column values "train", "valid" and "test", as well as a column storing the target to predict.
-df = pd.read_csv("my_dataframe.csv")
+df = pd.read_csv("path/to/my_dataframe.csv")
 pipeline = ChargeNet(
-   pdb_file_path="my_structure.pdb",
+   pdb_file_path="path/to/my_structure.pdb",
    reference_sequence="MYREFERENCESEQWENCE",
    target="my_target",
 )
@@ -124,10 +124,11 @@ pipeline.run(df)
 predictions = pipeline.predict(df)
 ```
 
-> [!CAUTION]
+> [!IMPORTANT]
 > ChargeNet stores electrostatic representations in an `ElectrostaticDataset` object in order to not recompute these representations during inference. This means that one must pass a dataframe to `predict` that is identical to the one passed to `run`.
 
-It is recommended to either precompute electrostatics for your dataset by setting `write_electrostatics_path`, that can then later be loaded using the `electrostatics_path` parameter, and/or to run ChargeNet with as many cores as possible, 
+> [!TIP]
+> It is recommended to either precompute electrostatics for your dataset by setting `write_electrostatics_path`, that can then later be loaded using the `electrostatics_path` parameter, and/or to run ChargeNet with as many cores as possible, 
 by setting the `n_cores` parameter. This is because the computation of electrostatics is computationally expensive. Computing electrostatics for a dataset with 3000 variants of 400 residues takes around an hour when using 60 cores of an AWS sagemaker ml.g5 instance.
 
 ### ChargeNet Parameters
@@ -194,5 +195,3 @@ Floris van der Flier - [@florisvdf](https://bsky.app/profile/florisvdf.bsky.soci
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/florisvdf/chargenet.svg?style=for-the-badge
 [license-url]: https://github.com/florisvdf/chargenet/blob/master/LICENSE.txt
-[Python.org]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
-[Python-url]: https://www.python.org/
