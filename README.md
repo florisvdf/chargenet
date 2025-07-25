@@ -87,6 +87,10 @@ Precompiled binaries of `apbs` can be found at https://github.com/Electrostatics
     ```
 2. Install 
 
+   ```sh
+   cd chargenet
+   ```
+
     Using [uv](https://docs.astral.sh/uv/)
     ```sh
     uv sync
