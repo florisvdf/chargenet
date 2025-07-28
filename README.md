@@ -58,8 +58,6 @@ This repository provides the full implementation of the ChargeNet pipeline descr
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To train ChargeNet on your own dataset, follow the instructions below.
-
 ### Prerequisites
 
 ChargeNet relies on two important tools:
@@ -73,6 +71,8 @@ ChargeNet relies on two important tools:
    ```sh
    conda install -c conda-forge -c schrodinger pymol-bundle
    ```
+
+or built from source by following the [installation guide](https://github.com/schrodinger/pymol-open-source/blob/master/INSTALL).
 
 If you are using `foldx`, ensure that there is an executable named `foldx` added to your `PATH` environment variable and that you have an environment variable named `ROTABASE_LOCATION` storing a path pointing to a rotabase file named `rotabase.txt`. 
 
@@ -128,8 +128,9 @@ predictions = pipeline.predict(df)
 > ChargeNet stores electrostatic representations in an `ElectrostaticDataset` object in order to not recompute these representations during inference. This means that one must pass a dataframe to `predict` that is identical to the one passed to `run`.
 
 > [!TIP]
-> It is recommended to either precompute electrostatics for your dataset by setting `write_electrostatics_path`, that can then later be loaded using the `electrostatics_path` parameter, and/or to run ChargeNet with as many cores as possible, 
-by setting the `n_cores` parameter. This is because the computation of electrostatics is computationally expensive. Computing electrostatics for a dataset with 3000 variants of 400 residues takes around an hour when using 60 cores of an AWS sagemaker ml.g5 instance.
+> It is recommended to run ChargeNet with as many cores as possible by setting the `n_cores` parameter. This is because the computation of electrostatics is computationally expensive. Computing electrostatics for a dataset with 3000 variants of 400 residues 
+> takes around an hour when using 60 cores of an AWS sagemaker ml.g5 instance. If you plan on running multiple training experiments on the same dataset with the same configuration of computing electrostatics, consider saving precomputed electrostatics 
+> of your dataset by setting `write_electrostatics_path`. This way, you can later load these again by setting `electrostatics_path`, avoiding recomputation. 
 
 ### ChargeNet Parameters
 
@@ -170,7 +171,9 @@ by setting the `n_cores` parameter. This is because the computation of electrost
 
 Copyright 2025 International Flavors and Fragrances, Wageningen University & Research
 
-All software is licensed under the MIT License; you may not use this file except in compliance with the MIT license. You may obtain a copy of the MIT license at: https://mit-license.org
+All original software developed for this project is licensed under the MIT License; you may not use this file except in compliance with the MIT license. You may obtain a copy of the MIT license at: https://mit-license.org
+
+This repository includes third party software, with source code, binary distribution and their corresponding license files located in `THIRD_PARTY_SOFTWARE` and `THIRD_PARTY_LICENSES`, respectively.
 
 All other materials are licensed under the Creative Commons Attribution 4.0 International License (CC-BY). You may obtain a copy of the CC-BY license at: https://creativecommons.org/licenses/by/4.0/legalcode
 
