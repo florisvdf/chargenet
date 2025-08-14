@@ -49,7 +49,8 @@
 </div>
 
 
-This repository provides the full implementation of the ChargeNet pipeline described in the preprint "Predicting protein variant properties with electrostatic representations". While the original experiments were executed on a proprietary commercial AWS SageMaker account and therefore cannot be shared directly, all code and configuration necessary to reproduce the experiments independently are included here.
+This repository provides the full implementation of the ChargeNet pipeline described in the preprint [Predicting protein variant properties with electrostatic representations](https://doi.org/10.1101/2025.08.11.669649). 
+While the original experiments were executed on a proprietary commercial AWS SageMaker account and therefore cannot be shared directly, all code and configuration necessary to reproduce the experiments independently are included here.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
