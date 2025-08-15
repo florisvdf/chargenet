@@ -52,8 +52,6 @@
 This repository provides the full implementation of the ChargeNet pipeline described in the preprint [Predicting protein variant properties with electrostatic representations](https://doi.org/10.1101/2025.08.11.669649). 
 While the original experiments were executed on a proprietary commercial AWS SageMaker account and therefore cannot be shared directly, all code and configuration necessary to reproduce the experiments independently are included here.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -100,8 +98,6 @@ Precompiled binaries of `apbs` can be found at https://github.com/Electrostatics
     ```sh
     pip install .
     ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -163,8 +159,6 @@ predictions = pipeline.predict(df)
 | electrostatics_path       |  str  | None    | Path to precomputed electrostatics matching the index of the samples in the dataframe.                                                                                                                     |
 | write_electrostatics_path |  str  | None    | Path to which computed electrostatics should be written as a `.h5` file.                                                                                                                                   |                                                                                                                                 |
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- LICENSE -->
@@ -176,11 +170,7 @@ All original software developed for this project is licensed under the MIT Licen
 
 This repository includes third party software, with source code, binary distribution and their corresponding license files located in `THIRD_PARTY_SOFTWARE` and `THIRD_PARTY_LICENSES`, respectively.
 
-All other materials are licensed under the Creative Commons Attribution 4.0 International License (CC-BY). You may obtain a copy of the CC-BY license at: https://creativecommons.org/licenses/by/4.0/legalcode
-
-Unless required by applicable law or agreed to in writing, all software and materials distributed here under the MIT or CC-BY licenses are distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the licenses for the specific language governing permissions and limitations under those licenses.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Unless required by applicable law or agreed to in writing, all software and materials distributed here under the MIT license are distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
 
 
@@ -189,8 +179,6 @@ Unless required by applicable law or agreed to in writing, all software and mate
 
 Floris van der Flier - [@florisvdf](https://bsky.app/profile/florisvdf.bsky.social) - floris.vanderflier@wur.nl
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
